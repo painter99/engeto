@@ -1,8 +1,7 @@
 # Discord username: painter_99; Discord name: painter99
 
-# Importujeme knihovny, které potřebujeme pro psaní testů
+# Importuji knihovny, které potřebuji pro psaní testů
 import pytest
-from playwright.sync_api import sync_playwright
 
 # Test 1: Otevření stránky a kontrola titulu
 def test_open_page_and_check_title(page):
