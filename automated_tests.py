@@ -9,7 +9,7 @@ def test_open_page_and_check_title(page):
     # Načteme stránku pomocí URL
     page.goto("https://fedoraproject.org/atomic-desktops/silverblue/download")
     # Ověříme, že titulek stránky je "Get Fedora"
-    assert page.title() == "Get Fedora"
+    assert page.title() == "Fedora Silverblue | The Fedora Project"
 
 # Test 2: Kontrola existence tlačítka pro stažení
 def test_check_download_button(page):
