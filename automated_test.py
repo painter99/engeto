@@ -1,4 +1,3 @@
-# Discord username: painter_99; Discord name: painter99
 
 # Importuji knihovny, které potřebuji pro psaní testů
 import pytest
